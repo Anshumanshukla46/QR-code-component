@@ -1,36 +1,32 @@
-/* .attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-} */
-
-
 body {
     box-sizing: border-box;
     margin: 0px;
     background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.outer {
-    /* position: relative; */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: auto;
+    margin-bottom: -35rem;
+    margin-left: -18.55rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+main {
     background-color: hsl(0, 0%, 100%);
-    /* display: inline-block; */
     width: 300px;
     height: 470px;
-    margin-top: 5%;
-    margin-left: 35%;
-
-    /* border: 10px solid white; */
+    padding-left: 13px;
     border-radius: 15px;
-}
-
-.inner {
-    margin-left: 15px;
-    margin-top: 15px;
-
 }
 
 h3 {
@@ -46,18 +42,19 @@ h3 {
 }
 
 img {
-    width: 97%;
-    height: 50%;
+    max-width: 100%;
     margin-top: 6%;
 
     border-radius: 15px;
 }
 
 #descript {
+    /* changed color as mentioned in readme only */
     color: hsl(220, 15%, 55%);
+    /* opacity: 0.5; */
     text-align: center;
     margin-right: 2%;
     font-weight: 400;
     font-family: 'Outfit';
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
